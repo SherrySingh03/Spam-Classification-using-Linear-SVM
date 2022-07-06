@@ -1,8 +1,9 @@
-Spam-Classification-using-Linear-SVM
-A Spam Classifier which uses Linear Support vector machines (SVM) Algorithm to predict whether an e-mail is Spam or not. 
-Assignment Project related to AndrewNG's ML Course.
+# Spam-Classification
 
-The Project includes the following files:
+A Spam Classifier which uses Linear **Support vector machines (SVM)** Algorithm to predict whether an e-mail is Spam or not. 
+Assignment Project related to AndrewNG's ML Course.
+***
+This project includes the following files:
 
 1. getVocabList   : a function which imports the vocabulary of words typically used in Spam E-mails (vocab.txt) and assigns indexes and words to a variable vocabList.
 
@@ -20,7 +21,8 @@ The Project includes the following files:
                     is Spam or not.
 
 6. emailFeatures  : a function which takes word_indices variable (generated in processEmail) as an argument in order to create a binary feature vector x which 
-                    contains the value '1' on index of word_indices, so as to return a vector that looks like : x = [ 0 0 0 0 1 0 1 0 1 0 1 0 ... 1 0 1 0 ...];
+                    contains the value '1' on index of word_indices, so as to return a vector that looks like : 
+                    x = [ 0 0 0 0 1 0 1 0 1 0 1 0 ... 1 0 1 0 ...];
 
 7. svmPredict     : a function which returns the converted (converts to 0 or 1) predicted value after the trained model (can be Linear or Gaussian, here, Linear 
                     model is used) gives a prediction.
